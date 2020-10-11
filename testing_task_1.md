@@ -30,11 +30,12 @@ class CardGame:
  
 
  def cards_total(cards):
-  #  indentation not correct in fuction name on above line.
+  #  indentation not correct in fuction name on above line. Self missing from parameters.
    total
+  #  total not defined
    for card in cards:
      total += card.value
      return "You have a total of" + total
-
+  # total is not an string. Space missing from the end of "total of"
 
 ```
