@@ -10,7 +10,7 @@ class CardGame:
 
 
   def checkforAce(self, card):
-    # function name not written with naming convention of camel case
+    # function name not written with naming convention
     if card.value = 1: 
       # "card.value = 1" errors as should be == not =
       return true
